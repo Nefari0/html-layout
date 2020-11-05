@@ -1,0 +1,84 @@
+
+.container {
+  position: absolute;
+  margin-top: 1px;
+  height: 90%;
+  width: 95%;
+  font-size : 100%;
+  background-color:rgb(255, 255, 255) ;  
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.first-box {
+    width: 95%;
+    height: 25%;
+    border: 3px solid green;
+    background-color: rgb(209, 168, 168);
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+  }
+
+  .blue-square {
+    display: inline-block;
+    height: 70%;
+    width: 2.5%;
+    margin-top: 3%;
+    margin-left: 1%;
+    background: blue;
+  }
+
+  .green-square {
+    display: inline-block;
+    height: 80%;
+    width: 35%;
+    margin-top: 3%;
+    margin-left: 2%;
+    background: green;
+  }
+
+  .circle {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    
+  }
+
+  .second-box {
+    width: 95%;
+    height: 25%;
+    border: 5px solid rgb(0, 0, 0);
+    border-style: dotted;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 2.5%;
+  }
+
+  .inner-box {
+    width: 95%;
+    height: 75%;
+   
+    background-color: rgb(226, 222, 160);
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+    box-shadow: 10px 10px 15px rgb(63, 48, 48);
+  }
+
+  .third-box {
+    width: 50%;
+    height: 25%;
+    background-color: white;
+    border: 1px solid rgb(20, 22, 20);
+    margin-top: 2%;
+    margin-left: 25%;
+    box-shadow: 2px 2px 2px rgb(63, 48, 48);
+  }
+
+  h2 {
+    font-size: 180;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 5px;
+}
