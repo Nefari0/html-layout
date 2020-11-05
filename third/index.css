@@ -1,34 +1,41 @@
-.container {
+/* .container {
     position: absolute;
     width: 50%;
     height: 99%;
     background-color: wheat;
     border: 3px solid black;
-}
-
-/* .container {
-    position: absolute;
-    margin-top: 1px;
-    height: 100%;
-    width: 50%;
-    font-size : 100%;
-    background-color:rgb(34, 6, 6) ;
-    margin-left: 25% ;
 } */
 
-.row {
+.container {
+    position: absolute;
+    width: 50%;
+    height: 99%;
+}
+
+/* .row {
     width: 50%;
     height: 10%;
+    /* background-color: black; */
+    /* margin: 0 auto;
+}  */
+
+.row {
+    width: 90%;
+    height: 20%;
     /* background-color: black; */
     margin: 0 auto;
 }
 
 .blue-box {
-    width: 20%;
+    width: 18%;
     height: 80%;
-    background-color: rgb(71, 71, 102);
-    margin-top: auto%;
-    margin-left: 5%;
+     /* margin-bottom: 5%; */
+    /* padding-top: 5px; */
+    margin-left: 16px;
+    border-top: 8px solid rgb(195, 212, 198) ;
+    border-bottom: 8px solid rgb(195, 212, 198);
+    /* padding-top: 5%; */
+    background-color: rgb(126, 164, 185);
 }
 
 .row-high {
@@ -39,8 +46,19 @@
 }
 
 .color1 {background-color: rgb(126, 164, 185);}
-.color2 {background-color: rgb(255, 166, 0);}
-.color3 {background-color: rgb(4, 4, 37);}
-.color4 {background-color: rgb(21, 255, 0);}
-.color5 {background-color: rgb(255, 0, 0);}
+/* .color2 {background-color: rgb(255, 166, 0);} */
+.color2 {background-color: rgb(195, 212, 198);}
+.color3 {background-color: rgb(117, 209, 134);}
+.color4 {background-color: rgb(121, 223, 117);}
+.color5 {background-color: rgb(219, 235, 75);}
 .color6 {background-color: rgb(2, 36, 17);}
+
+h3 {
+    
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 100;
